@@ -95,9 +95,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Graphic Resources\icon.png" />
-    <Content Include="Graphic Resources\intro.mp4" />
-    <Resource Include="Graphic Resources\removedTv.png" />
+    <Resource Include="GraphicResources\icon.png" />
+    <Resource Include="GraphicResources\removedTv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GraphicResources\homeIcon.png" />
+    <Content Include="GraphicResources\intro.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

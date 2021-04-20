@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Filmagine"
         mc:Ignorable="d"
-        Title="FilMagine" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="Graphic Resources\icon.png" WindowState="Normal"  Background="#0000">
+        Title="FilMagine" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="GraphicResources\icon.png" WindowState="Normal">
     <Grid>
-        <MediaElement x:Name="intro" LoadedBehavior="Play"/>
-       
+        <!--<MediaElement x:Name="intro" Source="GraphicResources\intro.mp4" LoadedBehavior="Play"/>-->
+        <WrapPanel Orientation="Horizontal" Background="Black" VerticalAlignment="Top" Height="80">
+            <Canvas >
+
+                <Button x:Name="HomeBtn" Content="Home" FontFamily="Simplex" Canvas.Left="72" Width="50" Height="30"/>
+            </Canvas>
+        </WrapPanel>
     </Grid>
 </Window>
